@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Brown Rabbit by Viktoria Zubchenko</title>
+</head>
+<body>
+    <div class="container app">
+        <header class="header">
+            <div class="row search">
+                <div class="col-6 offset-3 align-center col-lg-2 offset-lg-10">
+                <form class="d-flex " id="searchForm">
+                    <button  id="searchBtn" class="fas fa-search icon dropdown-toggle" type="submit"></button>
+                    <input id="searchBar" type="text" placeholder="Search...">
+                </form>
+                </div>  
+            </div>
+            <nav class="row navbar-expand-lg navbar navbar-dark justify-content-center justify-content-lg-between align-items-lg-end">
+                <div class="col-8 col-md-6 col-lg-auto navbar-brand" href="#">
+                    <img class="img-fluid" src="./img/logo.jpg"/>
+                </div>
+                <div class="col-lg-auto">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT NBC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">2011 EVENT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NORDIC ROASTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">RESULTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LINKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row slider" id="slider"></div>
+            <div class="row back-bar align-items-center">
+                <div class="col-auto m-auto col-lg-8">
+                    <div class="quote">
+                        <q>To create an environment in which knowledge about coffee and its sphere can be obtained</q>
+                    </div>
+                </div>
+                <div class="col-auto m-auto col-lg-4">
+                    <div class="social">
+                        <img src="./img/Social_icons.png" alt="social">
+                        <div class="links">
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <main class="row main container">
+            <div class="col-lg-9 blog">
+                <div id="postsItems">
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-3.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">Nordic Barista Cup 2011 in Copenhagen</div>
+                                <div class="date">Posted: 23/1-2011</div>
+                                <div class="text">Nordic Barista Cup 2011 will be held in Copenhagen, Denmark.
+                                    Dates: 25th - 27th August 2011. The theme for the 2011 seminar is: SENSORY.<span class="dots"> More information will follow on this page...</span><span class="more-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic eum sed? Iure vero reprehenderit distinctio qui repellendus commodi odio fugit eveniet, ipsum amet nesciunt non ratione sequi laborum et.
+                                </span></div>
+                                    
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-1.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">Wonderful Copenhagen 2011</div>
+                                <div class="date">Posted: 22/1-2011</div>
+                                <div class="text">
+                                    The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory<span class="dots">...</span><span class="more-text">. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-2.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-1.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">Post about coffee</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-2.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-3.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">Post about Denmark</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-1.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-2.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-3.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-1.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-2.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-3.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2009 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-1.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-2.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2010 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content d-flex align-items-start">
+                            <div class="post-img">
+                                <img src="./img/post-3.png" alt="blog img">
+                            </div>
+                            <article class="post-body">
+                                <div class="title">2012 Winners: Sweden</div>
+                                <div class="date">Posted: 12/1-2011</div>
+                                <div class="text">
+                                    Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo—well, at least that is what I think, since I havent seen much of anything else around here. <span class="dots">...</span><span class="more-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sint beatae, consectetur suscipit incidunt cupiditate facere? 
+                                    </span> 
+                                </div>
+                                <button class="btn-more">Read more</button>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-controll">
+                    <span id='currentPageNumber' class="pagination-element">Page 1 of 5</span>
+                    <nav class="pagination" id="pagination">
+                    </nav>
+                    <button class="pagination-element"  id="nextBtn"> >> </button>
+                </div>
+
+            </div>
+            
+            <aside class="col-lg-3 aside">
+                <section>
+                    <div class="aside-title">NBC Shop</div>
+                    <div class="aside-text">Your shopping cart is empty</div>
+                    <a href="#">Visit the shop</a>
+                </section>
+                <section>
+                    <div class="aside-title mt-4">Next Event</div>
+                    <div class="aside-text">Nordic Barista Cup 2011 <br>
+                        Copenhagen, Denmark <br>
+                        Dates : 25th - 27th August 2011 <br>
+                        Theme : SENSORY
+                    </div>
+                    <a href="#">Sign up now</a>
+                </section>
+                <section>
+                    <div class="aside-title mt-4">Scoreboard</div>
+                    <div class="aside-text mb-4">
+                        List of winners from past years
+                    </div>
+                    <div class="aside-text">
+                        2011 	-  ? <br>
+                        2010 	-  Sweden <br>
+                        2009	-  Denmark <br>
+                        2007	-  Sweden <br>
+                        2006	-  Norway <br>
+                        2005	-  Norway <br>
+                        2004	-  Denmark 
+                    </div>
+                </section>
+            </aside>
+        </main>
+
+        <section class="sponsors">
+            <div class="sponsors-title">Nordic Barista Cup Sponsors</div>
+            <div class="sponsors-list d-flex flex-wrap justify-content-between align-content-between">
+                <a href="#">
+                    <img src="./img/sponsor-1.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-2.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-3.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-4.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-5.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-6.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-7.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-8.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-9.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-10.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-11.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-12.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-13.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-14.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-15.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-16.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-17.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-18.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-19.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-20.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-21.gif" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/sponsor-22.gif" alt="">
+                </a>
+                <a href="#">
+                    
+                </a>
+                <a href="#">
+                    
+                </a>
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row footer-content">
+                <div class="col-lg-4 about">
+                    <div class="footer-title">About Nordic Barista Cup</div>
+                    <p>The vision within the Nordic Barista Cup is:</p>
+                    <q>To create an environment in which knowledge about coffee and its sphere can be obtained</q>
+                    <p  class="descr mt-4">'...create an environment…'
+                        Combined with personally absorption having the opportunity to see and experience countries, people, traditions etc. will always serve as a source of inspiration in our daily work.
+                        The organization behind the Nordic Barista Cup see it as its main purpose to be a part of creating this forum in which people can meet, bond and achieve further knowledge.</p>
+                </div>
+                <div class="col-lg-4 stream">
+                    <div class="footer-title">NBC Flickr Stream</div>
+                    <div class="stream-gallery d-flex flex-wrap justify-content-center">
+                        <a href="#">
+                            <img src="./img/footer-stream-1.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-2.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-3.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-4.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-5.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-6.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-7.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-8.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer-stream-9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 contacts">
+                    <div class="footer-title">Contacts</div>
+                    <p class="color">Nordic Barista Cup</p>
+                    <p>Amagertorv 13</p>
+                    <p>1160 Copenhagen K</p>
+                    <a href="tel:+45 33 12 04 28">+45 33 12 04 28</a>
+                    <p>CVR: 11427693</p>
+                    <a href="mailto:bbrend@nordicbaristacup.com">Email: bbrend@nordicbaristacup.com</a>
+                    <div class="social mt-4">
+                        <img src="./img/social_icons.png" alt="social">
+                        <div class="links">
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                            <a class="link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
